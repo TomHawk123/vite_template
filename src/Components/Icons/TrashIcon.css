@@ -1,0 +1,73 @@
+/*---------------------------------------------------------------*/
+/* MINIMALIST */
+.minimalist-trash-can {
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    position: relative;
+  }
+  
+  .minimalist-trash-can::before, .minimalist-trash-can::after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+  }
+  
+  .minimalist-trash-can::before {
+    top: -8px;
+    left: 5px;
+    width: 14px;
+    height: 4px;
+    border-radius: 2px;
+  }
+  
+  .minimalist-trash-can::after {
+    top: 4px;
+    left: 10px;
+    width: 4px;
+    height: 16px;
+  }
+/*---------------------------------------------------------------*/
+/* DETAILED */
+.detailed-trash-can {
+    width: 24px;
+    height: 24px;
+    background: linear-gradient(silver, grey);
+    border-radius: 3px;
+    position: relative;
+    box-shadow: inset 0 0 5px #000;
+  }
+  
+  .detailed-trash-can::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 4px;
+    right: 4px;
+    height: 5px;
+    background: linear-gradient(to right, #000, silver, #000);
+    border-radius: 1px;
+  }
+  
+/*---------------------------------------------------------------*/
+/* PLAYFUL */
+.playful-trash-can {
+    width: 24px;
+    height: 24px;
+    background-color: #f0f;
+    position: relative;
+    border-radius: 3px 3px 0 0;
+  }
+  
+  .playful-trash-can::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 5px;
+    width: 14px;
+    height: 4px;
+    background-color: #606;
+    border-radius: 2px;
+  }
+  
+/*---------------------------------------------------------------*/
