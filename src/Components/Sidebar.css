@@ -1,0 +1,9 @@
+.sidebar {
+    width: 20%;
+    float: left;
+    height: 100vh;
+    background: #ad3636;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  

@@ -2,6 +2,15 @@
 import React from "react";
 import "./Buttons.css";
 
+function checkId(id) {
+  if (id === "") {
+    console.error(
+      "Button id is empty. Please provide a unique id for the button."
+    );
+  }
+  // TODO: Add different checks to return different button structures as needed.
+}
+
 const Button = ({
   text,
   onClick,
@@ -9,6 +18,7 @@ const Button = ({
   id = "",
   disabled = false,
 }) => {
+  checkId(id);
   return (
     <div className={`button-container-${id}`}>
       <button type={type} id={`${id}`} onClick={onClick} disabled={disabled}>

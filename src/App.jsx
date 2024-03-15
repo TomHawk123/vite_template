@@ -1,8 +1,10 @@
+import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Button from "./Components/Button";
+import DragAndDrop from "./Pages/DragAndDrop";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -28,6 +30,7 @@ function App() {
         <Button text="3D Press" id="three-d-press" />
         <Button text="Shimmering" id="amazing-button" />
         <Button text="The Twist" id="twist" />
+
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
@@ -35,6 +38,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Routes>
+        <Route exact path="/drag_and_drop" element={<DragAndDrop />} />
+      </Routes>
     </>
   );
 }
