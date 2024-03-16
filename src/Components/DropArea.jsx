@@ -44,6 +44,8 @@ const DropArea = () => {
         float: "right",
         minHeight: "100vh",
         position: "relative",
+        minWidth: "80vw",
+        border: "1px solid #000",
       }}
     >
       {droppedIcons.map((icon, index) => (

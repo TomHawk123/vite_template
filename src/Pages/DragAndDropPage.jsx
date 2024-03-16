@@ -4,9 +4,9 @@ import DropArea from "../Components/DropArea";
 
 const DragAndDrop = () => {
   const icons = [
-    { name: "Trash", id: 1 },
-    { name: "Email", id: 2 },
-    { name: "Info", id: 3 },
+    { name: "CEO", id: 1 },
+    { name: "CFO", id: 2 },
+    { name: "Team Lead", id: 3 },
     // Add more icons as needed
   ];
 
