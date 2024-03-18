@@ -1,5 +1,6 @@
 import { React } from "react";
 import Button from "../Components/Button";
+import ConfettiButton from "../Actions/launchConfetti";
 
 const ButtonsPage = () => {
   return (
@@ -13,7 +14,7 @@ const ButtonsPage = () => {
       <Button text="Gradient Glow" id="gradient-glow" />
       <Button text="3D Press" id="three-d-press" />
       <Button text="Shimmering" id="amazing-button" />
-      <Button text="The Twist" id="twist" />
+      <Button text="The Twist" id="twist" withConfetti="true" />
     </>
   );
 };
