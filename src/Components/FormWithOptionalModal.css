@@ -1,0 +1,95 @@
+/* TODO: Create a way to toggle between modal styling and static styling */
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.close-div {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+#cta {
+  margin: 0.3em;
+  padding: 0.3em;
+  width: 100%;
+  text-align: center;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.close-button {
+  cursor: pointer;
+  border: none;
+  z-index: 1000;
+  text-align: right;
+  margin-right: 1em;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.contact-form {
+  border-radius: 10px;
+  padding-bottom: 1.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  box-shadow: 8px 15px 38px #bebebe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+  width: 30vh;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="text"],
+.contact-form textarea {
+  padding: 8px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-shadow: inset 2px 3px 5px #bebebe;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
