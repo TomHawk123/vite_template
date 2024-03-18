@@ -1,4 +1,3 @@
-import React from "react";
 import Sidebar from "../Components/Sidebar";
 import DropArea from "../Components/DropArea";
 

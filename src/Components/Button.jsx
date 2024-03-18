@@ -1,4 +1,3 @@
-import React from "react";
 import launchConfetti from "../Actions/launchConfetti";
 import "./Buttons.css";
 
